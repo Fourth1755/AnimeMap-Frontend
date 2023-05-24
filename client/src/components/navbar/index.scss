@@ -1,0 +1,72 @@
+$colorPink:#FF1493;
+$colorBlack:#000000;
+$colorWhite:#FFFFFF;
+$colorDarkPink:#201020;
+$colorDarkDarkPink :#371037;
+.text-title{
+    color: $colorWhite;
+    text-decoration: none;
+    padding: 10px;
+    &:hover{
+        text-decoration: none;
+        color:$colorPink;
+    }
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: $colorPink;
+    width: 100%;
+}
+.navbar-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 380px;
+    justify-content: space-between;
+}
+.navbar-logo{
+    padding: 10px 10px 10px 20px;
+}
+.navbar-logo-text{
+    font-size: 32px;
+}
+.navbar-item{
+    overflow: hidden;
+    list-style-type: none;
+}
+.navbar-item-li{
+    float: left;
+    padding: 15px;
+}
+.navbar-item-link{
+    display: block;
+    color: $colorWhite;
+    text-align: center;
+    text-decoration: none;
+    &:hover{
+        color: $colorBlack;
+    }
+}
+.navbar-profile{
+    padding: 10px;
+}
+.navbar-login-button{
+    padding: 10px;
+    background-color: $colorBlack;
+    border-radius: 12px;
+    color: $colorWhite;
+    font-size: medium;
+    margin-right: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover{
+        background-color:$colorDarkDarkPink
+    }
+}
