@@ -2,8 +2,6 @@ import './index.scss'
 import {Link} from "react-router-dom";
 
 const Navbar=()=>{
-    //const {user} =useSelector((state)=>state.auth)
-    //const user=getUser()
     return(
         <div className='navbar'>
             <div className='navbar-left'>
@@ -20,7 +18,6 @@ const Navbar=()=>{
                 </div>
             </div>
             <div className='navbar-right'>
-                {/* {user?<ProfileBar/>:<Link to="/login" className='navbar-login-button' >Login</Link>} */}
             </div>
         </div>
     )
